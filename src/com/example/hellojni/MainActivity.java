@@ -3,8 +3,8 @@ package com.example.hellojni;
 import com.example.hellojni.util.NumberUtil;
 import com.example.hellojni.util.StringUtil;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -13,7 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends Activity implements View.OnClickListener {
 
 	private static final String TAG = MainActivity.class.getSimpleName();
 
